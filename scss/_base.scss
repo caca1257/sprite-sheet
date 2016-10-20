@@ -1,0 +1,49 @@
+@import 'icon/*.png';
+@include all-icon-sprites;
+
+body{
+	background-color: #F0F0F0;
+}
+h2{
+	font-family: 'Acme', sans-serif;
+	font-size: 5em;
+	text-decoration: underline;
+	padding-left:40px;
+}
+
+i{
+	height: 400px;
+	width: 400px;
+	display:none;
+}
+li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+	margin-left: 150px;
+	
+	a{
+		display: inline-block;
+		width: 400px;
+		height: 400px;
+		span{
+			position: absolute;
+			top: -9999em;
+			left: -9999em;
+		}//span:
+	}//a
+}//li
+.why p{
+	font-size: 3em;
+	padding: 30px;
+	border: 3px solid;
+	margin:0px 150px 0px 150px;
+	
+}
+.define{
+	font-size: 3em;
+	padding: 30px;
+	border: 3px solid;
+	margin:0px 150px 0px 150px;
+	
+}
